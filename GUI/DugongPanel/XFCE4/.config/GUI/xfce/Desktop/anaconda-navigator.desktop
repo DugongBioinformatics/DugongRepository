@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Anaconda Navigator
+GenericName=Dugong Panel
+Comment=Control Panel for Conda and BioConda
+Exec=anaconda-navigator
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/headless/.config/Anaconda_Logo.png
+StartupNotify=true
