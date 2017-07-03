@@ -1,0 +1,8 @@
+FROM dugong/dugong:cmd
+MAINTAINER Fabiano Menegidio
+
+USER root
+ENV USER dugong
+USER dugong
+
+RUN /headless/.conda2/bin/conda create -n panel anaconda-navigator=1.5
