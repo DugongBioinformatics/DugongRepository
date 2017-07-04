@@ -1,27 +1,12 @@
-###########################################################################
-# Dugong - Scientific Linux Containers for Bioinformatic
-# ======================================================
-#
-# Current development is led by Fabiano Menegidio.
-#
-# Bioinformatician/Bioinformaticist at the Laboratory of Functional 
-# and Structural Genomics of the Integrated Nucleus of Biotechnology 
-# at the University of Mogi das Cruzes, Brazil.
-# 
-# Contact: fabiano.menegidio@biology.bio.br
-# GitHub: https://github.com/fabianomenegidio
-#
-#
-###########################################################################
-
-FROM dugong/dugong
+FROM dugong/dugong:icewm
 MAINTAINER Fabiano Menegidio
 
 USER root
 
 RUN apt-get update \
     && apt-get install graphviz -y \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && apt-get autoremove -y && apt-get clean -y \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 WORKDIR /root/
 
