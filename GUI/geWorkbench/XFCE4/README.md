@@ -1,4 +1,4 @@
-# DugongGUI - geWorkbench
+# Dugong - geWorkbench
 
 ***geWorkbench*** (genomics Workbench) is a Java-based open-source platform for integrated genomics. Using a component architecture it allows individually developed plug-ins to be configured into complex bioinformatic applications. At present there are more than 70 available plug-ins supporting the visualization and analysis of gene expression and sequence data.
 
