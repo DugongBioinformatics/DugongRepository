@@ -7,4 +7,4 @@ USER dugong
 
 ADD .config/GUI/icewm/ $HOME/
 
-RUN /headless/.conda2/bin/conda create -n panel anaconda-navigator=1.5
+RUN /headless/.conda2/bin/conda install anaconda-navigator=1.5
