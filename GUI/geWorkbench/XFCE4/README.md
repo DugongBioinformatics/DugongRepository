@@ -4,12 +4,6 @@
 
 ![geWorkbench](http://wiki.c2b2.columbia.edu/workbench/images/thumb/d/dd/GeWorkbench_full_GUI_color_mosaic.png/760px-GeWorkbench_full_GUI_color_mosaic.png)
 
-## Quick install
-
-    docker pull dugong/dugong-geworkbench
-    docker run -d -p 5901:5901 -p 6901:6901 -v $HOME/dugong/:/data/ \
-    --name Dugong -h Dugong --privileged dugong/dugong-geworkbench
-    
 ## Site geWorkbench
 
 http://wiki.c2b2.columbia.edu/workbench/index.php/Home
