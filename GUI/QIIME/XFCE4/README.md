@@ -80,17 +80,3 @@ Access: https://store.docker.com/editions/community/docker-ce-desktop-windows
 ### MacOS:
 
 Access: https://store.docker.com/editions/community/docker-ce-desktop-mac
-
-## Quick install Dugong:
-
-To start a container, the user must have Docker installed on his operating system, according to the tutorials available in the project documentation. The Dugong image is available in the Docker Hub and its use is the recommended method of installation.
-
-Two steps are required to start a container containing Dugong. In the first step, the Dugong image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default Dugong installation. If the host machine is a Linux, the following commands must be performed in the terminal:
-
-    $ docker pull dugong/dugongcmd-qiime
-    $ docker run -d -p 3000:3000 -p 2222:22 -v $HOME/dugong/:/data/ \
-        --name DugongCMD -h DugongCMD --privileged dugong/dugongcmd-qiime
-
-At the end of the commands a Dugong instance will be available in the container named Dugong. Details about the container can be obtained through the command below:
-
-    $ docker ps
