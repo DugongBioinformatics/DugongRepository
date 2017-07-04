@@ -1,4 +1,0 @@
-prog xterm xterm xterm
-separator
-prog Chromium /usr/share/pixmaps/chromium-browser.png /usr/bin/chromium-browser
-prog Anaconda-Navigator /headless/.icewm/Anaconda_Logo.png /headless/.conda2/bin/anaconda-navigator
