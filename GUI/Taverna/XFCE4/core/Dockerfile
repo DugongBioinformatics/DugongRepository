@@ -1,19 +1,3 @@
-###########################################################################
-# Dugong - Scientific Linux Containers for Bioinformatic
-# ======================================================
-#
-# Current development is led by Fabiano Menegidio.
-#
-# Bioinformatician/Bioinformaticist at the Laboratory of Functional 
-# and Structural Genomics of the Integrated Nucleus of Biotechnology 
-# at the University of Mogi das Cruzes, Brazil.
-# 
-# Contact: fabiano.menegidio@biology.bio.br
-# GitHub: https://github.com/fabianomenegidio
-#
-#
-###########################################################################
-
 FROM dugong/dugong
 MAINTAINER Fabiano Menegidio
 
@@ -45,5 +29,4 @@ RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taver
     && cp -R /root/Desktop/taverna-workbench/ $HOME/Desktop/ \
     && chown dugong:dugong $HOME/Desktop/taverna-workbench/
     
- WORKDIR /data
- USER dugong
+USER dugong
