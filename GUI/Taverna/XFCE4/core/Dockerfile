@@ -29,5 +29,6 @@ RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taver
     && chmod +x /root/Desktop/taverna-workbench/taverna.sh \
     && cp -R /root/Desktop/taverna-workbench/ $HOME/Desktop/ \
     && chown dugong:dugong $HOME/Desktop/taverna-workbench/
-    
+
+WORKDIR /data
 USER dugong
