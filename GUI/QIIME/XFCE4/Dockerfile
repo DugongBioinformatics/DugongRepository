@@ -5,8 +5,8 @@ USER root
 
 RUN apt-get update && apt-get -y install \
       ant gfortran ghc libatlas-base-dev libatlas-dev libbz2-dev libc6-i386 libfreetype6-dev libgsl0-dev libhdf5-serial-dev \
-      liblapack-dev libmysqlclient18 libmysqlclient-dev libncurses5-dev libpng12-dev libreadline-dev libsqlite3-dev \
-      libssl-dev libxml2 libxslt1.1 libxslt1-dev libzmq-dev mpich2 pkg-config sqlite3 subversion swig tcl-dev tk-dev \
+      liblapack-dev libmysqlclient20 libmysqlclient-dev libncurses5-dev libpng12-dev libreadline-dev libsqlite3-dev \
+      libssl-dev libxml2 libxslt1.1 libxslt1-dev libzmq-dev mpich pkg-config sqlite3 subversion swig tcl-dev tk-dev \
       zlib1g-dev apt-transport-https \
     && apt-get autoremove -y && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -14,7 +14,7 @@ RUN apt-get update && apt-get -y install \
 
 USER dugong
 
-RUN conda install qiime qiime-default-reference r-qiimer qiimetomaaslin pandaseq vsearch matplotlib mock nose h5py \
+RUN /headless/.conda2/bin/conda install qiime qiime-default-reference r-qiimer qiimetomaaslin pandaseq vsearch matplotlib mock nose h5py \
     bioconductor-metagenomeseq bioconductor-deseq2
       
       
