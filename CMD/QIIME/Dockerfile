@@ -14,7 +14,7 @@ RUN apt-get update && apt-get -y install \
 
 USER dugong
 
-RUN conda install qiime qiime-default-reference r-qiimer qiimetomaaslin pandaseq vsearch matplotlib mock nose h5py \
+RUN /headless/.conda2/bin/conda install qiime qiime-default-reference r-qiimer qiimetomaaslin pandaseq vsearch matplotlib mock nose h5py \
     bioconductor-metagenomeseq bioconductor-deseq2
       
       
