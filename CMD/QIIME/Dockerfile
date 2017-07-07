@@ -24,7 +24,7 @@ USER root
 RUN cd $HOME && mkdir tmp && cd tmp && git clone https://github.com/fabianomenegidio/qiime_deps \
     && cd qiime_deps &&  cat qiime_deps.tar.gz.part-* > qiime_deps.tar \
     && tar xvf qiime_deps.tar && mv qiime_deps /opt && rm -rf $HOME/tmp && chown -R dugong:dugong /opt/qiime_deps \
-    && mkdir /opt/qiime_db && wget cd /opt/qiime_db \
+    && mkdir /opt/qiime_db && cd /opt/qiime_db \
     && wget https://unite.ut.ee/sh_files/sh_qiime_release_28.06.2017.zip \
     && wget ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_8_otus.tar.gz \
     && unzip sh_qiime_release_28.06.2017.zip && tar zxvf gg_13_8_otus.tar.gz && chown -R dugong:dugong /opt/qiime_db \
