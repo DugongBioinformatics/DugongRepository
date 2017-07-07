@@ -29,6 +29,9 @@ RUN cd $HOME && mkdir tmp && cd tmp && git clone https://github.com/fabianomeneg
     && wget ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_8_otus.tar.gz \
     && unzip sh_qiime_release_28.06.2017.zip && tar zxvf gg_13_8_otus.tar.gz && chown -R dugong:dugong /opt/qiime_db \
     && rm sh_qiime_release_28.06.2017.zip gg_13_8_otus.tar.gz
+    
+ENV qiime_db /opt/qiime_db
+ENV qiime_deps /opt/qiime_deps
       
 USER dugong      
       
