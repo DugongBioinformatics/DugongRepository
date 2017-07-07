@@ -30,8 +30,8 @@ RUN cd $HOME && mkdir tmp && cd tmp && git clone https://github.com/fabianomeneg
     && unzip sh_qiime_release_28.06.2017.zip && tar zxvf gg_13_8_otus.tar.gz && chown -R dugong:dugong /opt/qiime_db \
     && rm sh_qiime_release_28.06.2017.zip gg_13_8_otus.tar.gz
     
-ENV qiime_db /opt/qiime_db
-ENV qiime_deps /opt/qiime_deps
+ENV QIIME_DB /opt/qiime_db
+ENV QIIME_DEPS /opt/qiime_deps
       
 USER dugong      
       
