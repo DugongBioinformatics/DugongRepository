@@ -5,7 +5,7 @@ USER root
 
 RUN apt-get update && apt-get -y install \
       ant gfortran ghc libatlas-base-dev libatlas-dev libbz2-dev libc6-i386 libfreetype6-dev libgsl0-dev libhdf5-serial-dev \
-      liblapack-dev libmysqlclient20 libmysqlclient-dev libncurses5-dev libpng12-dev libreadline-dev libsqlite3-dev \
+      liblapack-dev libmysqlclient18 libmysqlclient-dev libncurses5-dev libpng12-dev libreadline-dev libsqlite3-dev \
       libssl-dev libxml2 libxslt1.1 libxslt1-dev libzmq-dev mpich pkg-config sqlite3 subversion swig tcl-dev tk-dev \
       zlib1g-dev apt-transport-https \
     && apt-get autoremove -y && apt-get clean -y \
