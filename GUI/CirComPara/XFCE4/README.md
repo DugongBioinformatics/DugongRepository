@@ -37,7 +37,7 @@ All results obtained in our tests in different computational environments demons
 
 We also provide the HTML results created in CirComPara for operating systems: [Windows](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/windows/circRNAs_analysis.html), [CentOS](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/centos/circRNAs_analysis.html), [Fedora](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/fedora/circRNAs_analysis.html), [Ubuntu](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/ubuntu/circRNAs_analysis.html) and [Arch Linux](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/arch/circRNAs_analysis.html).
 
-## Quick install Dugong
+## Quick install Dugong CirComPara
 
 To start a container, the user must have Docker installed on his operating system, according to the tutorials available in the project documentation. The Dugong image is available in the Docker Hub and its use is the recommended method of installation.
 
@@ -55,3 +55,15 @@ At the end of the commands a Dugong instance will be available in the container 
 ```
 docker ps
 ```
+
+## Test your installation
+
+Type in the terminal:
+
+```
+cd test_circompara
+cd analysis
+../../circompara
+```
+
+If you plan to use single-end reads, test with meta_se.csv file instead of meta.csv.
