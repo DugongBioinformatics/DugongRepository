@@ -35,5 +35,5 @@ In the table below, we provide the results obtained in the simulations performed
 
 All results obtained in our tests in different computational environments demonstrated 100% reproducibility based on the data expected by the test samples made available by the authors of CirComPara.
 
-We also provide the HTML results created in CirCom for operating systems: Windows, CentOS, [Ubuntu](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/ubuntu/circRNAs_analysis.html) and Arch Linux.
+We also provide the HTML results created in CirComPara for operating systems: Windows, CentOS, [Ubuntu](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/ubuntu/circRNAs_analysis.html) and Arch Linux.
 
