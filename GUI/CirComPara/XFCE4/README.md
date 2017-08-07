@@ -31,7 +31,7 @@ Below we provide a video from a CircRNA analysis using the CirComPara tool on an
 
 In the table below, we provide the results obtained in the simulations performed using the different operating systems mentioned above as hosting for Dugong-CirComPara. The table deals with the detection of CircRNAs using the different predictive methods available in CirComPara:
 
-![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/CirComPara.png)
+![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/CirComPara.pngs)
 
 All results obtained in our tests in different computational environments demonstrated 100% reproducibility based on the data expected by the test samples made available by the authors of CirComPara.
 
