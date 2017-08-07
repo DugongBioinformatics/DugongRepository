@@ -6,7 +6,7 @@ To demonstrate Dugong ́s effectiveness to distribute and run bioinformatics too
 
 Although authors provide details regarding the expected versions of each software and their dependency requirements, several problems can still be encountered during CirComPara implementation by inexperienced users (see [documentation](https://goo.gl/Eg6cKG) for CirComPara installation details).
 
-## Simulate the reproducibility and replicability
+## Simulating reproducibility and replicability in alternative OS
 
 To simulate the reproducibility and replicability of the CirComPara pipeline after its implementation in Dugong, we have created different virtual machines in [VirtualBox](https://www.virtualbox.org/) and [CloudatCost Hosting](http://cloudatcost.com/).
 
@@ -27,9 +27,9 @@ Below we provide a video from a CircRNA analysis using the CirComPara tool on an
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-41-23.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
-## Results of the simulations
+## Results of simulations
 
-In the table below, we provide the results obtained in the simulations performed using the different operating systems mentioned above as hosting for Dugong-CirComPara. The table deals with the detection of CircRNAs using the different predictive methods available in CirComPara:
+In the table below, we provide the results obtained in the simulations performed using the different operating systems mentioned above as hosts for Dugong-CirComPara. The table deals with the detection of CircRNAs using the different predictive methods available in CirComPara:
 
 ![Comparative](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/CirComPara.png)
 
@@ -37,9 +37,9 @@ All results obtained in our tests in different computational environments demons
 
 We also provide the HTML results created in CirComPara for operating systems: [Windows](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/windows/circRNAs_analysis.html), [CentOS](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/centos/circRNAs_analysis.html), [Fedora](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/fedora/circRNAs_analysis.html), [Ubuntu](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/ubuntu/circRNAs_analysis.html) and [Arch Linux](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/arch/circRNAs_analysis.html).
 
-## Quick install Dugong CirComPara
+## Quick installation of Dugong CirComPara
 
-To start a container, the user must have Docker installed on his operating system, according to the tutorials available in the project documentation. The Dugong image is available in the Docker Hub and its use is the recommended method of installation.
+To start a container, the user must have Docker installed on his/her operating system, according to the tutorials available in the Docker project documentation. The Dugong image is available in the Docker Hub and its use is the recommended method of installation.
 
 Two steps are required to start a container containing Dugong. In the first step, the Dugong image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default Dugong installation. If the host machine is a Linux, the following commands must be performed in the terminal:
 
