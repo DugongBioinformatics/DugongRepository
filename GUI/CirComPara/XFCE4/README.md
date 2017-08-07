@@ -37,3 +37,21 @@ All results obtained in our tests in different computational environments demons
 
 We also provide the HTML results created in CirComPara for operating systems: [Windows](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/windows/circRNAs_analysis.html), [CentOS](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/centos/circRNAs_analysis.html), [Fedora](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/fedora/circRNAs_analysis.html), [Ubuntu](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/ubuntu/circRNAs_analysis.html) and [Arch Linux](http://htmlpreview.github.io/?https://github.com/DugongBioinformatics/dugongbioinformatics.github.io/blob/master/.results/arch/circRNAs_analysis.html).
 
+## Quick install Dugong
+
+To start a container, the user must have Docker installed on his operating system, according to the tutorials available in the project documentation. The Dugong image is available in the Docker Hub and its use is the recommended method of installation.
+
+Two steps are required to start a container containing Dugong. In the first step, the Dugong image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default Dugong installation. If the host machine is a Linux, the following commands must be performed in the terminal:
+
+```
+docker pull dugong/dugong-circompara
+docker run -d -p 5901:5901 -p 6901:6901 -v $HOME/dugong/:$HOME/data/ \
+    --name Dugong-CirComPara -h Dugong-CirComPara --privileged dugong/dugong-circompara
+```
+
+
+At the end of the commands a Dugong instance will be available in the container named Dugong. Details about the container can be obtained through the command below:
+
+```
+docker ps
+```
