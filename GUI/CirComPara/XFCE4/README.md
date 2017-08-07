@@ -37,7 +37,7 @@ Output files are not available in the repository, but can be [downloaded here](h
 
 Below we present a video demonstrating the implementation of the pipeline, after the download in our repository, and its execution:
 
-
+[![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-07%2001-18-21.png)](https://www.youtube.com/watch?v=lk92Jj7JDiI)
 
 ## Results of simulations
 
