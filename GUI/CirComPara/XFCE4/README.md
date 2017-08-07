@@ -27,6 +27,18 @@ Below we provide a video from a CircRNA analysis using the CirComPara tool on an
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-41-23.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
 
+### Simulating reproducibility and replicability using a pipeline in Jupyter Notebook
+
+To demonstrate the ease of execution of CirComPara using Jupyter Notebook, available in all versions of Dugong, we have developed a simple CircRNA analysis pipeline.
+
+This pipeline can be found in our [repository](https://github.com/DugongBioinformatics/DugongRepository/blob/master/Notebooks/CirComPara/CirComPara%20Pipeline.ipynb) along with the [results](https://github.com/DugongBioinformatics/DugongRepository/blob/master/Notebooks/CirComPara/Example_Results/CirComPara%20Pipeline%20(Results).ipynb) obtained during its execution.
+
+Output files are not available in the repository, but can be [downloaded here](https://github.com/DugongBioinformatics/DugongRepository/blob/master/Notebooks/CirComPara/Example_Results/circrna_analyze.zip).
+
+Below we present a video demonstrating the implementation of the pipeline, after the download in our repository, and its execution:
+
+
+
 ## Results of simulations
 
 In the table below, we provide the results obtained in the simulations performed using the different operating systems mentioned above as hosts for Dugong-CirComPara. The table deals with the detection of CircRNAs using the different predictive methods available in CirComPara:
