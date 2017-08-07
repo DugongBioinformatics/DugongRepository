@@ -10,8 +10,19 @@ Although authors provide details regarding the expected versions of each softwar
 
 To simulate the reproducibility and replicability of the CirComPara pipeline after its implementation in Dugong, we have created different virtual machines in [VirtualBox](https://www.virtualbox.org/) and [CloudatCost Hosting](http://cloudatcost.com/).
 
+For the simulations the following operating systems were used for the virtual machines:
 
+- Ubuntu Server (CloudatCost)
+- CentOS (CloudatCost)
+- Ubuntu (VirtualBox)
+- Fedora (VirtualBox)
+- Arch Linux (VirtualBox)
+- Windows (VirtualBox)
 
-- Video from a CircRNA analysis using the CirComPara tool on an Ubuntu Server with a DugongGUI container installed. The video presents a complete implementation of CirComPara with the test data provided by the authors and their expected results:
+We make available in a virtual drive the OVA images created by VirtualBox, except for Windows due to Microsoft license issues. These images can be found [here](https://mega.nz/#F!cPhDUTTT!pXZy-CtLEvR4wx0uqpeqWQ).
+
+Note: The images are large in size because they have all the standard Docker installation and containers for the DugongGUI, DugongCMD and Dugong-CirComPara pre-installed.
+
+Below we provide a video from a CircRNA analysis using the CirComPara tool on an Ubuntu Server of CloudatCost with a DugongGUI container installed. The video presents a complete implementation of CirComPara with the test data provided by the authors and their expected results:
 
 [![Watch the video](https://raw.githubusercontent.com/DugongBioinformatics/dugongbioinformatics.github.io/master/.misc/Screenshot%20from%202017-08-01%2004-41-23.png)](https://www.youtube.com/watch?v=8FlvmERIKJI)
